@@ -162,7 +162,7 @@ border-top-right-radius: 3px;
 }
 ul.header_right_box{
 	padding:0;
-	margin: 0 0 0 33%;
+	margin: 0 0 0 0%;
 	list-style:none;
 	
 }
@@ -1337,7 +1337,7 @@ p.cart {
 	
 	font-size:1em;
 }
-.register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
+.register-top-grid input[type="text"], input[type="password"], select, .register-bottom-grid input[type="text"], input[type="password"]{
 	border: 1px solid #EEE;
 	outline-color:#FF5B36;
 	width: 96%;
@@ -1345,6 +1345,7 @@ p.cart {
 	padding: 0.5em;
 	-webkit-appearance: none;
 }
+
 .checkbox {
 	margin-bottom: 4px;
 	padding-left: 27px;
@@ -1415,7 +1416,7 @@ p.cart {
 .register-but{
 	
 }
-.register-but form input[type="submit"] {
+.register-but input[type="submit"] {
 	background: #df1f26;
 color: #FFF;
 font-size: 1em;

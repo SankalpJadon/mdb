@@ -1,3 +1,5 @@
 .idea/
 .recommendations/
-
+.vendor/
+vendor/
+/var/www/html/mdb/includes/common/constants.php
